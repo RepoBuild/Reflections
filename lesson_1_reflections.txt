@@ -1,0 +1,42 @@
+1) How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+A)   Solving a bug this way made it easy because their was an old file to look as a reference.
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A)    Having a history of a file makes it less tedious to restore data to previous state incase 	  of major problem.
+
+3) What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+A)    Pros:
+	 1) Commiting manually offers flexibility for saving the file at any time
+	 thus making it clear to read and understand.
+
+	 Cons:
+	 1) Sometimes if we fail to save the file manually then it'll be cumbersome to iterate 
+	 the file over
+
+4) Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A)   Saving a group of files that relate to the same project at once will be helpful
+because for every save the state of the project will be same because of interrelated files
+while others like Google Docs, treat the files seperately because their will be no interrelated files that should be taken care of while making a change to single file.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+A)   GIT LOG is used to keep track of different versions of the files. While, GIT DIFF is used to
+	compare file changes between two versions.
+
+6) How might using version control make you more confident to make changes that
+could break something?
+
+A)   If something fails accidentally then with the version control we always have the safe old version to restore and check any bug by comparison using git Diff.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+A)    Now i want to properly control various version of my project in a professional way using GIT.
