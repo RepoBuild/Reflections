@@ -1,10 +1,15 @@
-What happens when you initialize a repository? Why do you need to do it?
-
-How is the staging area different from the working directory and the repository?
+1) What happens when you initialize a repository? Why do you need to do it?
+A) Initializing a repository by using [command: git init] will create a hidden directory that'll help to track the history of the project.
+ 
+2) How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+A) Staging area is the area where we add files to before we make any changes. Staging area acts like a middle man between a file and git for commiting.
 
-How can you use the staging area to make sure you have one commit per logical
+3) How can you use the staging area to make sure you have one commit per logical
 change?
+A) As i know that their should be one commit per logical change. This can be followed by checking the changes that were made using [command: git diff (for checking difference between working directory
+and staging area)] [command: git diff --staged(for checking difference between staging area and the repository)] [command: git reset --hard] to reset all the files from working directory and the staging area].
+As the staging area can be helpful to track the changes before commiting.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
