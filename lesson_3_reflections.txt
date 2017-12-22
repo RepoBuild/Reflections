@@ -9,10 +9,15 @@ automatically stay up-to-date with your remote repository?
 A) Pulling changes manually gives full control to us on when to import certain changes to our project rather than pulling automatically.
 Where automatic pulling may result in importing unwanted or unintentional data to our project.
 
-Describe the differences between forks, clones, and branches.  When would you
+3) Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A) Forks are nothing but clones of a github repository into our gitHub repository whereas cloning means taking a copy of the gitHub repo to the local drive or taking a copy of the local files.
+Branches acts as a holder to the commit history.
+
+* We use Forks when we want to clone another repo from the gitHub to our account on the gitHub.
+* We use clone when we want to take a copy of the files or project from the gitHub to our local machine.
+* We use branches to hold specific commit history of a project.  
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
