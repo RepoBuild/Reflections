@@ -1,12 +1,12 @@
 1) How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-A)   Solving a bug this way made it easy because their was an old file to look as a reference.
+A)   Solving a bug this way make it easy because their will be an old file to look as a reference.
 
 2) How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-A)    Having a history of a file makes it less tedious to restore data to previous state incase 	  of major problem.
+A)    Having a history of a file makes it less tedious to restore data to previous state incase of major problem.
 
 3) What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
