@@ -1,0 +1,40 @@
+
+1) What happens when you initialize a repository? Why do you need to do it?
+A) When i initialize a new git repository using git init commmand git has created some hidden files in the .git directory that helps
+track history of my project later.
+
+2) How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+A) Staging area is the area where we add files first before commiting changes. So, it acts as a middle man between file and commit, while repository and directory include all the files from the project.
+
+3) How can you use the staging area to make sure you have one commit per logical
+change?
+A) As i know that their should be one commit per logical change. This can be followed by checking the changes that were made using [command: git diff (for checking difference between working directory
+and staging area)] [command: git diff --staged(for checking difference between staging area and the repository)] [command: git reset --hard] to reset all the files from working directory and the staging area].
+As the staging area can be helpful to track the changes before commiting.
+
+4) What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+A) Apart from the regular bug fixes or addding new features to the program, when i want to implement a new experiemental feature without messingup the original project then i can create branch to keep track of
+the changes seperately from the master branch. This branching helps to work on both main project and the experiemental feature making to keep history organized seperately. 
+
+5) How do the diagrams help you visualize the branch structure?
+A) Looking at the diagram we can take home that checking out or reaching any commit needs to have its own branch and git log works on the basis that parent concept i.e git log traces out most recent commit
+to most first commit through its parent 
+Example diagram:
+A <-- B <-- C <-- D <------
+              <-- E
+
+Here 'A' is the parent of 'B' and 'B' is the parent of 'C' and so on.So when ever we use git log, git shows all the commit history we made on the same family or on same line chronologically. If their is no branch
+like 'E' when we checkout back to our master branch i.e "A<-B<-C<-D" all the progress made to 'E' is lost because we can't reach 'E' by any means 
+
+Note: Accessing 'E' without head or branch will show the message DETACHED HEAD STATE which means their is no brance associated and can't be reached for future use if id is forgot. We call also create a new head if we want.
+
+6) What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+A) The result of merging two branches together will merge all the progress into one common commit. We represent this in the diagram to get a better understanding of what commits are added and merged as a common commit.
+
+7) What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+A) Git automatic merging may sometimes cause merging conflicts were manual merging gives full control on adjusting merging conflicts
+Note: Have to research on automatic and manual git merging.
