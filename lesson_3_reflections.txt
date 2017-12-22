@@ -3,10 +3,11 @@ local?
 
 A) When we want to push our local files to the gitHub repository we will create and use remote repository. 
 
-Why might you want to always pull changes manually rather than having Git
+2) Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+A) Pulling changes manually gives full control to us on when to import certain changes to our project rather than pulling automatically.
+Where automatic pulling may result in importing unwanted or unintentional data to our project.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
