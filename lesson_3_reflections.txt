@@ -27,10 +27,12 @@ if our project is above, below or in sync with the github version. So, that we c
 
 * Git log or the history of the local remote can be accessed by the origin/master [i.e remote/branch] rather than simple git log cmd. 
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+5) How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+A) Without Git, maintaining version control is pretty much harder because it might involve transferring huge files of data over electronically like through email.
+Which incase will not save any history of the file.
+* The only thing that would have been easier is we don't need to know anything about GIT or how it works.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
