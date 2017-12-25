@@ -19,10 +19,13 @@ Branches acts as a holder to the commit history.
 * We use clone when we want to take a copy of the files or project from the gitHub to our local machine.
 * We use branches to hold specific commit history of a project.  
 
-What is the benefit of having a copy of the last known state of the remote
+4) What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+A) Having a copy of the last known state of the remote stored locally will make it easier to compare to the gitHub repo offline thereby we can known
+if our project is above, below or in sync with the github version. So, that we can always keep our gitHub updated.
+
+* Git log or the history of the local remote can be accessed by the origin/master [i.e remote/branch] rather than simple git log cmd. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
