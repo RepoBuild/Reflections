@@ -37,5 +37,5 @@ Which incase will not save any history of the file.
 6) When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-A) When we are implementing any new feature of even a major change to our project its better to make a separate branch and make change their rather than making changes to the master,
+A) When we are implementing any new feature or even any major change to our project its better to make a separate branch and make change their rather than making changes to the master,
 This way we can ensure that the master branch is safe incase if we want to revert back or else if the feature we are trying to implement is successfull then we can also merge that feature with the master branch.
