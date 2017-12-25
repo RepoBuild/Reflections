@@ -34,7 +34,8 @@ A) Without Git, maintaining version control is pretty much harder because it mig
 Which incase will not save any history of the file.
 * The only thing that would have been easier is we don't need to know anything about GIT or how it works.
 
-When would you want to make changes in a separate branch rather than directly in
+6) When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+A) When we are implementing any new feature of even a major change to our project its better to make a separate branch and make change their rather than making changes to the master,
+This way we can ensure that the master branch is safe incase if we want to revert back or else if the feature we are trying to implement is successfull then we can also merge that feature with the master branch.
